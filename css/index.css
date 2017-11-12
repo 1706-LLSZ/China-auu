@@ -1,0 +1,15 @@
+.banner{
+	width: 100%;
+	padding: 0px !important;
+	margin-bottom: 84px !important;
+}
+.banner .row{
+	margin: 0px;
+}
+.banner .row .imgBox{
+	width: 100%;
+	padding: 0px !important;
+}
+.banner .row .imgBox img{
+	width: 100%;
+}
