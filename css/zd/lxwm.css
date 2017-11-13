@@ -1,0 +1,236 @@
+.zd-lxwm-tu{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background:url(../../images/zd/zd-1.jpg);
+}
+.zd-lxwm-tu .zd-lxwm-imgbox{
+	position:absolute;
+	left: 0;
+	bottom: -30px;
+    z-index: 60;
+	height: 54px;
+    width: 100%;
+	background:url(../../images/zd/buguize.png) center top no-repeat;
+}
+/* con */
+.zd-lxwm-con{
+	width: 100%;
+}
+.zd-lxwm-con .lxwm-top{
+	max-width: 1140px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+    padding: 50px 0 8px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.zd-lxwm-con .lxwm-top h3{
+	width: 100%;
+	font-size: 30px;
+    color: #002;
+    margin-bottom: 10px;
+	font-weight: normal;
+
+}
+.zd-lxwm-con .lxwm-top h5{
+
+	font-size: 20px;
+    color: #cacace;
+    text-transform: uppercase;
+	font-weight: normal;
+
+	
+}
+.zd-lxwm-con .lxwm-top h5 span{
+	color: #e4392a;
+	margin-right: 5px;
+}
+.zd-lxwm-con .lxwm-bottom{
+	 max-width:1140px;
+	 width: 100%;
+	margin: auto;
+	overflow:hidden;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left{
+	width:38%;
+	float: left;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left ul{
+	width: 100%;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left ul li{
+	background: url(../../images/zd/san.png) no-repeat;
+	padding-left: 60px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left ul li a{
+	color: #999;
+	display:block;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left ul li:nth-child(1){
+	background-position: 0 0;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left ul li:nth-child(2){
+	background-position: 0 -74px;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-left ul li:nth-child(3){
+	background-position: 0 -184px;
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-right{
+	width: 62%;
+    float: right;	
+}
+.zd-lxwm-con .lxwm-bottom .lxwm-right img{
+	width: 100%;
+}
+
+
+/*地图开始 */
+.zd-map{
+	width:100%;
+	margin-top:100px;
+	position: relative;
+
+}
+.zd-map .maps{
+	width:100%;
+	height:107px;
+	text-align:center;
+}
+.zd-map .maps .btn{
+	text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height:132px;
+    display: inline-block;
+    cursor:pointer;
+}
+.zd-map .maps .arr{
+	width:31px;
+	height: 15px;
+	display:block;
+	background-color:red;
+	position:absolute;
+	top:-15px;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:0 auto;
+}
+.zd-map .mapapi{
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+	height:0px;
+	overflow:hidden;
+}
+.zd-map .mapapi .btn-down{
+    width: 112px;
+    height: 48px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 52px;
+    margin-left: -50px;
+    z-index: 99;
+    cursor:pointer;
+}
+.zd-map .mapapi .mapbg1{
+   height: 54px;
+   position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index:999;
+}
+.zd-map .mapapi .mapbg2{
+     height: 41px;
+   position: absolute;
+    bottom:0;
+    width: 100%;
+    z-index:999;
+}
+
+/*地图结束 */
+
+/* 侧边 */
+.side1{
+	position: fixed;
+    width: 50px;
+    height: 275px;
+    right: 0;
+    top: 250px;
+    z-index: 100;
+}
+.side1 ul li{
+	width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    margin-bottom: 2px;
+}
+.side1 ul li .sidebox{
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+	border-radius: 5px 0 0 5px;
+	background: rgb(0, 0, 34);
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+    color: #fff;
+    font: 16px/50px "微软雅黑";
+    overflow: hidden;
+}
+.side1 ul li img{
+	float: right;
+	transform-origin:right top;
+}
+.side1 ul li:hover img{
+	animation: scale .2s; 
+}
+@keyframes scale{
+	50%{
+		transform:scale(.5,.5);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+.side2{
+	position: fixed;
+    width: 40px;
+    right: 10px;
+    z-index: 100;
+    top: 500px;
+    height: 80px;
+}
+.side2 ul li{
+	width: 40px;
+    height: 40px;
+}
+.side2 ul li a{
+	display: block;
+    background-color: #e4392a;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.side2 ul li a img{
+	vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+.side2 ul li .weixin{
+	display: none;
+    height: 140px;
+    position: absolute;
+    left: -154px;
+    bottom: 0;
+}
