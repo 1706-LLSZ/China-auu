@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="renderer" content="webkit"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	<link rel="stylesheet" href="css/zd/gywm.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/zd/animate.css">
+	<link rel="stylesheet" href="css/zd/swiper.min.css">
+	<script src="js/zd/swiper.js"></script>
+	<script src="js/zd/swiper.animate1.0.2.min.js"></script>
+	<script src="js/zd/gywm.js"></script>
+	<script src="js/zd/animate.js"></script>
+
+</head>
+<style type="text/css">
+/*侧边栏样式*/
+.side1{
+	position: fixed;
+    width: 50px;
+    height: 275px;
+    right: 0;
+    top: 250px;
+    z-index: 100;
+}
+.side1 ul li{
+	width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    margin-bottom: 2px;
+}
+.side1 ul li .sidebox{
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+	border-radius: 5px 0 0 5px;
+	background: rgb(0, 0, 34);
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+    color: #fff;
+    font: 16px/50px "微软雅黑";
+    overflow: hidden;
+}
+.side1 ul li img{
+	float: right;
+	transform-origin:right top;
+}
+.side1 ul li:hover img{
+	animation: scale .2s; 
+}
+@keyframes scale{
+	50%{
+		transform:scale(.5,.5);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+.side2{
+	position: fixed;
+    width: 40px;
+    right: 10px;
+    z-index: 100;
+    top: 500px;
+    height: 80px;
+}
+.side2 ul li{
+	width: 40px;
+    height: 40px;
+}
+.side2 ul li a{
+	display: block;
+    background-color: #e4392a;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.side2 ul li a img{
+	vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+.side2 ul li .weixin{
+	display: none;
+    height: 140px;
+    position: absolute;
+    left: -154px;
+    bottom: 0;
+}	
+</style>
+<body>
+<!-- 头部 -->
+	<div class="zd-header" style="background: #FFFFFF;">
+		<div class="zd-top">
+			<div class="logobox">
+				<a href=""><img src="images/zd/logo.png" alt=""></a>
+			</div>
+			<ul class="zd-dh">
+				<li><a href="">首页</a></li>
+				<li><a href="">新闻资讯</a></li>
+				<li><a href="">服务领域</a></li>
+				<li><a href="">成功案例</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="zd-lxwm.html">联系我们</a></li>
+			</ul>
+			<div class="lxwm">
+				15921847323
+			</div>
+		</div>
+	</div>
+<!-- 响应式头部 -->
+	<div class="zdxy-header">
+		<div class="logobox">
+			<a href=""><img src="images/zd/logo.png" alt=""></a>
+		</div>
+		<div class="dhbox"></div>
+
+		<ul class="zd-bigbox">
+			<li><a href="">首页</a></li>
+			<li><a href="">新闻资讯</a></li>
+			<li><a href="">服务领域</a></li>
+			<li><a href="">成功案例</a></li>
+			<li><a href="">关于我们</a></li>
+			<li><a href="zd-lxwm.html">联系我们</a></li>
+		</ul>
+	</div>		
+<!--内容开始-->
+	<div class="zd-ib">
+		<div class="zd-bgz"></div>
+	</div>
+	<div class="zd-who">
+		<div class="zd-h">
+			<h3>我们是谁</h3>
+			<h5>ABOUT<span>US</span></h5>
+		</div>
+		<div class="zd-c">
+			 天津津合精密科技有限公司是专业从事3D打印服务、工业设计、模型制作、多媒体服务和应用研发的高科技企业，致力于推广在线3D打印服务，打造友好的3D打印生态系统。为船舶、汽车、航空、航天、模具、家电、海工、医疗、建筑、能源、科研、教育等领域提供一体化综合解决方案，帮助这些行业的客户提高效率、提升品质，并降低损耗。
+			 <br>	 
+			 天津津合拥有多台3D扫描与3D打印设备，形成了完整的3D产品链，同时在上海、天津等地开设线下3D打印创新服务中心。目前全面推进“3D打印+互联网”战略，全力建设在线3D打印云平台（aau3D打印），形成线上线下（O2O）3D打印生态系统，通过互联网与3D打印相结合的形式，致力于解决用户个性化需求。
+			<br>		
+ 			未来数年，3D打印产业环境持续向好。3D市场年复合增长率预测将达到45.7%，天津津合将秉承“求精，务实，创新，共赢”的理念，以“为客户创造价值”为企业宗旨，持续提供稳定优质的产品和细致周到的服务，邀您共同逐鹿3D打印之蓝海，共创富有乐趣的3D生活！	 
+		</div>
+	</div>
+	<ul class='zd-about'>
+		<li>
+			<div class="ab-imgbox">
+				<img src="images/zd/c1.png" alt="">
+			</div>
+			<h3>创意定制</h3>
+			<div class="line"></div>
+			<p> 您的创意，让我们帮你实现。针对不同企业状况、客户特殊需求等量身打造，从专业化的模型定制，不同品类的3D打印服务，到创意礼品定制，个性化多媒体产品，无不体现“定制”的意义。</p>
+		</li>
+		<li>
+			<div class="ab-imgbox">
+				<img src="images/zd/t1.png" alt="">
+			</div>
+			<h3>专业服务</h3>
+			<div class="line"></div>
+			<p> 将您的想法和设计变为现实和产品，从虚拟到现实一键打通，3D模型在线即时报价系统，支付与订单管理系统，报价定制、数据统计分析等完善的后台支撑系统，为客户提供专业化的服务。</p>
+		</li>
+		<li>
+			<div class="ab-imgbox">
+				<img src="images/zd/b1.png" alt="">
+			</div>
+			<h3>质量保证</h3>
+			<div class="line"></div>
+			<p> 我们的产品全部流程化管理，完全实现自动化操作，如有任何质量问题，都可以免费更换或者重新打印。从货物包装到快递发货，全程无损运输，产品签收前损坏，我们承诺负100%责任。</p>
+		</li>
+	</ul>
+	<div class="zd-xz">
+		<div class="zd-h">
+			<h3>我们的客户</h3>
+			<h5>OUR<span>CUSTOMER</span></h5>
+		</div>
+		<div class="zd-tu">
+			<div class="zd-tan">
+				<div class="leftbox">
+					<img src="images/zd/Left1.png" alt="" class='left'>
+				</div>
+				<div class="rightbox">
+					<img src="images/zd/Right.png" alt="" class='right'>
+				</div>
+				<div class="tan-box">
+					<div class="zd-box">
+						<img src="images/zd/kh1.jpg" alt="">
+						<img src="images/zd/kh2.jpg" alt="">
+						<img src="images/zd/kh5.jpg" alt="">
+						<img src="images/zd/kh9.jpg" alt="">
+						<img src="images/zd/kh10.jpg" alt="">
+						<img src="images/zd/kh11.jpg" alt="">
+						<img src="images/zd/kh21.jpg" alt="">
+						<img src="images/zd/kh29.jpg" alt="">
+						<img src="images/zd/kh30.jpg" alt="">
+						<img src="images/zd/kh6.jpg" alt="">
+					</div>
+					<div class="zd-box">
+						<img src="images/zd/kh3.jpg" alt="">
+						<img src="images/zd/kh12.jpg" alt="">
+						<img src="images/zd/kh13.jpg" alt="">
+						<img src="images/zd/kh14.jpg" alt="">
+						<img src="images/zd/kh15.jpg" alt="">
+						<img src="images/zd/kh16.jpg" alt="">
+						<img src="images/zd/kh17.jpg" alt="">
+						<img src="images/zd/kh18.jpg" alt="">
+						<img src="images/zd/kh19.jpg" alt="">
+						<img src="images/zd/kh20.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="zd-we">
+		<div class="zd-h">
+			<h3>我们的优势</h3>
+			<h5>OUR<span>ADVANTAGE</span></h5>
+		</div>
+		<div class="we-imgbox">
+			<img src="images/zd/wy.png" alt="">
+			<div class="we-font">
+				<div class="we-con">
+					<p class='hi'>专业服务</p>
+					<p>一对一专业顾问，所有问题7×24小时在线服务！</p>
+				</div>
+				<div class="we-con">
+					<p class='hi'>一键打印</p>
+					<p>一键打印，30秒极速报价系统，3D打印如此轻松！</p>
+				</div>
+				<div class="we-con">
+					<p class='hi'>设备先进</p>
+					<p>上海和天津两大打印基地，有各类打印机20余台！</p>
+				</div>
+				<div class="we-con">
+					<p class='hi'>材料齐全</p>
+					<p>低至1.5元/克起，质量保证，有问题可免费重打！</p>
+				</div>
+				<div class="we-con">
+					<p class='hi'>质优价廉</p>
+					<p>一对一专业顾问，所有问题7×24小时在线服务！</p>
+				</div>
+				<div class="we-con">
+					<p class='hi'>售后无忧</p>
+					<p>100%检测发货，与品牌物流企业合作，安全快捷！</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- swiper动画 -->
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+       <div class="tongPings swiper-slide">
+         <div class="zd-last">
+           <div class="cont1">
+               <div class="ones">
+                   <h3 class="ani" swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">团队精神</h3>
+                   <p>团队精神是大局意识、协作精神和服务精神的集中体现，基础是尊重个人的兴趣和成就，核心是协同合作，最高境界是全体成员的向心力、凝聚力。我们需要时刻保持团队意识，清醒地认识到个人只是团队的一分子，团队价值高于个人价值。</p>
+                   <a href="" class="add ani" swiper-animate-effect=" fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.3s">加入我们</a>
+               </div>
+               <div class="twos">
+                   <img  class="ani" swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s" src="images/zd/o1.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.3s" src="images/zd/o2.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" src="images/zd/o3.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeInUp" swiper-animate-duration="2.5s" swiper-animate-delay="1s" src="images/zd/o4.png" alt="">
+               </div>
+           </div>
+         </div>
+       </div>
+       <div class="tongPings swiper-slide">
+         <div class="zd-last">
+           <div class="cont1">
+               <div class="ones">
+                   <h3 class="ani" swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">业务团队</h3>
+                   <p>我们拥有一支高素质、高凝聚力和专业高效的业务团队，不但精通各种商务沟通的技巧，更具有扎实的专业知识，在与用户的沟通中，从用户的角度出发，让客户感受到我们是真诚的为他们服务。</p>
+                   <a href="" class="add ani" swiper-animate-effect=" fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.3s">加入我们</a>
+               </div>
+               <div class="twos">
+                   <img class="ani" swiper-animate-effect=" fadeIn" swiper-animate-duration="2.5s" swiper-animate-delay="1.5s" src="images/zd/s1.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s" src="images/zd/s2.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="images/zd/s3.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="2.5s" swiper-animate-delay="0.5s" src="images/zd/s4.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeInLeft" swiper-animate-duration="3.5s" swiper-animate-delay="0.5s" src="images/zd/s5.png" alt="">
+               </div>
+           </div>
+         </div>
+       </div>
+       <div class="tongPings swiper-slide">
+         <div class="zd-last">
+           <div class="cont1">
+               <div class="ones">
+                   <h3 class="ani" swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">设计团队</h3>
+                   <p>我们拥有业内一流的技术中心和设计团队，并在上海、天津等地开设线下3D打印创新服务中心。配备国内最先进的设计软件，几十名名研发工程师。创新的设计软件，专业的技术人员，使做出的产品具有质量好、精度高、成本低、速度快的优点！</p>
+                   <a href="" class="add ani" swiper-animate-effect=" fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.3s">加入我们</a>
+               </div>
+               <div class="twos">
+                   <img class="ani" swiper-animate-effect=" fadeInUp" swiper-animate-duration="2.5s" swiper-animate-delay="0.5s" src="images/zd/y1.png" alt="">
+                   <img class="ani" swiper-animate-effect=" fadeIn" swiper-animate-duration="3s" swiper-animate-delay="1.5s" src="images/zd/y2.png" alt="">
+               </div>
+           </div>
+         </div>
+       </div>
+   </div>
+</div>
+   <ul class="zd-last2">
+       <li class='last_prev'>
+           <a class="swiper-button-prevs"></a>
+       </li>
+       <li class='last_next'>
+           <a class="swiper-button-nexts"></a>
+       </li>
+   </ul>
+<!--footer开始-->	
+	<div class="zd-footer">
+		<div class="footer">
+				<ul>
+					<li>关于我们</li>
+					<li><a href="">我们是谁</a></li>
+					<li><a href="">品牌客户</a></li>
+					<li><a href="">专业团队</a></li>
+				</ul>
+				<ul>
+					<li>服务领域</li>
+					<li><a href="">3D打印服务</a></li>
+					<li><a href="">工业设计</a></li>
+					<li><a href="">模型制作</a></li>
+					<li><a href="">服务流程</a></li>
+					<li><a href="">服务行业</a></li>
+				</ul>
+				<ul>
+					<li>成功案例</li>
+					<li><a href="">3D打印服务</a></li>
+					<li><a href="">工业设计</a></li>
+					<li><a href="">模型制作</a></li>
+					<li><a href="">多媒体服务</a></li>
+					<li><a href="">应用研发</a></li>
+				</ul>
+				<ul>
+					<li>新闻资讯</li>
+					<li><a href="">企业动态</a></li>
+					<li><a href="">行业资讯</a></li>
+					<li><a href="">视频新闻</a></li>
+				</ul>
+				<ul>
+					<li>联系我们</li>
+					<li><a href=""><img src="images/zd/wx.png" alt=""><img src="images/zd/wb.png" alt=""></a></li>
+					<b>15921847323</b>
+					<h5>服务热线</h5>
+				</ul>
+		</div>
+		<div class="bq">
+			<p>
+				<span>Copyright © 2017-2019 版权所有：天津津合精密科技有限公司 Tianjin Jinhe Precision Technology  Co., Ltd.</span>
+				<a href="">沪ICP备12047210号-1</a>
+				<img src="images/zd/dt.gif" alt="">
+			</p>
+			
+		</div>
+	</div>
+<!--footer结束-->
+
+<!--侧边栏开始-->
+		<div class="side1">
+			<ul>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="images/qq.png" alt="">
+							在线咨询
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="images/phone.png" alt="">
+							15921847323
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="side2">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/ewm.png" alt="">
+					</a>
+					<div class="weixin">
+						<em></em>
+						<img src="images/ewm.jpg" alt="">
+					</div>
+				</li>
+				<li>
+					<a href="javascript:goTop()">
+						<img src="images/up.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+
+</body>
+<script>
+    
+       var mySwiper = new Swiper('.swiper-container', {
+        // autoplay: 3000,//可选选项，自动滑动时间间隔;
+        initialSlide:0, //默认选中第几张为当前展示;
+        //direction:'vertical', //垂直方式轮播设置;
+        speed:1000,  //拖动动作完成的时间;
+        loop:true,  //是否反向;
+        pagination : '.swiper-pagination',
+        autoplayDisableOnInteraction:true,//用户拖动了轮播图是否停止轮播;
+        hashnav:true,   
+        hashnavWatchState:true, 
+        prevButton:'.swiper-button-prevs',
+        nextButton:'.swiper-button-nexts',
+
+
+      onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+        swiperAnimateCache(swiper); //隐藏动画元素 
+        swiperAnimate(swiper); //初始化完成开始动画
+      }, 
+      onSlideChangeEnd: function(swiper){ 
+        swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+      } 
+     })
+</script>
+
+
+<script type="text/javascript">
+//侧边栏的js	
+	$(document).ready(function(){
+	$(".side1 ul li").hover(function(){
+		$(this).find(".sidebox").stop().animate({"width":"175px"},200).css({"background":"#e4392a","padding-left":"17px"})
+	},function(){
+		 $(this).find(".sidebox").stop().animate({"width":"50px"},200).css({"background":"#002","padding-left":"0"})
+	})
+	$(".side2 ul li").hover(function(){
+		$(this).find("a").css({"background":"#002"})
+	},function(){
+		$(this).find("a").css({"background":"#e4392a"})
+	})
+	$(".slide2 li #top").click(function(){
+		$("html,body").animate({"scrollTop":"0"},600)
+	})
+	$('.side2 li').hover(function(){
+	    $(this).find('.weixin').stop().slideToggle();
+	})
+})
+	
+	
+	
+</script>	
+
+</html>

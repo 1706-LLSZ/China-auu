@@ -1,0 +1,76 @@
+.zd-footer{
+	width: 100%;
+
+	padding-top:75px;
+
+	background:url(../../images/zd/footer.png) center top no-repeat;
+}
+.zd-footer .footer{
+	width: 1140px;
+	height: 219px;
+	margin:auto;
+
+}
+.zd-footer .footer ul{
+	width: 20%;
+	float: left;
+	position: relative;
+}
+.zd-footer .footer ul li{
+	font-size:12px;
+	line-height:26px;
+}
+.zd-footer .footer ul li:hover a{
+	text-decoration: underline;
+}
+.zd-footer .footer ul li a{
+	color: rgb(168,168,175);
+}
+.zd-footer .footer ul li:nth-of-type(1){
+	font-size: 16px;
+    padding-bottom: 20px;
+    color: white;
+}
+.zd-footer .footer ul li img{
+	margin-right: 10px;	
+	margin-bottom: 25px;
+}
+.zd-footer .footer ul  b{
+	font-weight: normal;
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: white;
+}
+.zd-footer .footer ul h5{
+	font-weight: normal;
+	color: rgb(168,168,175);
+	font-size:16px;
+}
+.zd-footer .footer ul .ewm{
+	position: absolute;
+	left: -150px;
+	top: 45px;
+	overflow:hidden;
+	width: 140px;
+	transition:all .5s;
+	height: 0;
+}
+.zd-footer .bq{
+	background:rgb(0,0,34);
+	width: 100%;
+	font-size: 0;
+}
+.zd-footer .bq p{
+	width: 1140px;
+	margin:auto;
+	height: 40px;
+	line-height: 40px;
+}
+.zd-footer .bq p span,a{
+	color: #CCCCCC;
+	font-size:12px;
+}
+.zd-footer .bq a{
+	margin-left: 15px;
+}
+

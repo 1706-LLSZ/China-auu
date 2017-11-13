@@ -55,24 +55,152 @@
     color: #999;
     font-size: 16px;
 }
-.ul-list li{
-	  height: 362px!important;
-    width: 293px!important;
+.np-list{
+	margin: 0 -15px;
 }
-.ul-list  .pad{
-	    padding: 0 15px;
+.np-list li {
+    float: left;
+    width: 25%;
+    margin-bottom: 30px;
+    min-height: 362px;
 }
-.ul-list .pic a{
-	color: #999;
+.np-list li .np-pad {
+    padding: 0 13px;
 }
-.ul-list .pic a img{
-	width: 100%;
+.np-list li .np-pad .np-pic img {
+    width: 100%;
+    display: block;
+    zoom: 1;
+     transition: all 1s ease 0s;
+     -webkit-transition: all 1s ease 0s;
+}
+.np-list li:hover .np-pad .np-pic img{
+	 transform:rotateY(180deg);
+	 -webkit-transform:rotateY(180deg);
+	 
+}
+.np-list li:hover .np-bor{
+	border: 1px solid red;
+}
+.np-list li .np-bor {
+    border: 1px solid #e2e3e8;
+   box-sizing: initial;
+}
+.np-list li .np-txt {
+    padding: 20px 14px;
+    line-height: 20px;
+    color: #666;
+}
+.np-list li .np-txt a p{
 	display: block;
-	transform: perspective(800px) rotateY(0deg);
-	transition: all 1s ease 0s;
+    font-size: 12px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3; 
+    overflow: hidden;
+} 
+.np-list li .np-title {
+    height: 55px;
+    margin-bottom: 20px;
 }
-.ul-list li:hover img {
-	transform: perspective(800px) rotateY(-180deg);
+.np-list li .np-title span {
+    float: left;
+    border: 1px solid #e2e3e8;
+    background-color: #f0f2f5;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 5px;
+    margin-right: 15px;
+}
+.np-list li .np-title span em {
+    display: block;
+    font-size: 16px;
+}
+.np-list li .np-title h3 {
+    border-bottom: 1px solid #e2e3e8;
+    overflow: hidden;
+    height: 54px;
+}
+.np-list li .np-title h3 a b{
+	font-size: 14px;
+	display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2; 
+    overflow: hidden;
+}
+
+.np-list li .np-more {
+    height: 42px;
+    line-height: 42px;
+    border-top: 1px dotted #e2e3e8;
+    background-color: #f0f2f5;
+    padding: 0 14px;
+    display: none;
+}
+.np-list li .np-more a {
+    color: #e4392a;
+}
+@media screen and (max-width: 1068px){
+	.np-list {
+    	margin: 0px;
+	}
+}
+@media screen and (max-width: 960px){
+	.np-list li{
+		width: 33.3333%;
+    	min-height: 363px;
+	} 
+	
+}
+@media screen and (max-width: 768px){
+	.np-list li{
+		width: 50%;
+    	min-height: 408px;
+	} 
+	
+}
+@media screen and (max-width: 480px){
+	.np-list li{
+		width: 100%;
+	} 
+	.np-bgg{
+		display: none;
+	}
+	
+}
+
+/*响应效果*/
+
+
+/*分页效果*/
+.np-pagess {
+    clear: both;
+    height: 30px;
+    margin: 20px 20px 34px 20px;
+    overflow: hidden;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+.np-pagess ul li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 2px 9px;
+    margin: 0 3px;
+    line-height: 20px;
+    background: #fff;
+    color: #999;
+}
+.np-pagess ul li a {
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+.np-pagess ul li:nth-child(3){
+	background: #E4392A;
+}
+.np-pagess ul li:nth-child(3) a{
+	color: #FFFFFF;
 }
 
 
