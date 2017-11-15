@@ -11,25 +11,475 @@
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/lxh/index.css">
+	<link rel="stylesheet" href="css/lxh/header.css">
+	<link rel="stylesheet" href="css/lxh/footer.css">
 
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/swiper.jquery.min.js"></script>
 	<script src="js/lxh/index.js"></script>
+	<script src="js/lxh/zd-header.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wGTwrnx05VarGLN1P1dQgqfQKcpqcfbH"></script>
 
 </head>
 <body>
 	<!--头部导航-->
-
-	<!--头部导航-->
-
-	<!--banner开始-->
-	<div class="banner">
-		<div class="row" style="width:100%;margin:0px;">
-			<div class="imgBox col-xs-12" style="padding:0px;">
-				<img src="images/lxh/banner0.jpg" alt="" style="width:100%">
+	<div class="zd-header" style="background:#fff">
+		<div class="zd-top">
+			<div class="logobox">
+				<a href=""><img src="images/zd/logo.png" alt=""></a>
+			</div>
+			<ul class="zd-dh">
+				<li><a href="">首页</a></li>
+				<li><a href="">新闻资讯</a></li>
+				<li><a href="">服务领域</a></li>
+				<li><a href="">成功案例</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">联系我们</a></li>
+			</ul>
+			<div class="lxwm">
+				15921847323
 			</div>
 		</div>
 	</div>
+	<!-- 响应式头部 -->
+	<div class="zdxy-header" style="background:#fff">
+		<div class="logobox">
+			<a href=""><img src="images/zd/logo.png" alt=""></a>
+		</div>
+		<div class="dhbox"></div>
+
+		<ul class="zd-bigbox">
+			<li><a href="">首页</a></li>
+			<li><a href="">新闻资讯</a></li>
+			<li><a href="">服务领域</a></li>
+			<li><a href="">成功案例</a></li>
+			<li><a href="">关于我们</a></li>
+			<li><a href="">联系我们</a></li>
+		</ul>
+	</div>
+	<!--头部导航-->
+
+	<!--banner开始-->
+	<div class="banner swiper-container">
+		<div class="ban"></div>
+		<ul class="row swiper-wrapper">
+			<li class="imgBox swiper-slide col-xs-12">
+				<a href=""><img src="images/lxh/banner0.jpg" alt=""></a>
+			</li>
+			<li class="imgBox swiper-slide col-xs-12">
+				<a href="" style="display:block"><img src="images/lxh/banner5.jpg" alt=""></a>
+			</li>
+			<li class="imgBox swiper-slide col-xs-12">
+				<a href=""><img src="images/lxh/banner1.jpg" alt=""></a>
+				<a href=""><div class="ban_text one">
+					<h5>ainnovating for you</h5>
+					<h2>用互联网思维做3D打印</h2>
+					<h3>不只是3D打印，提供更有价值的服务</h3>
+				</div></a>
+			</li>
+			<li class="imgBox swiper-slide col-xs-12">
+				<a href=""><img src="images/lxh/banner2.jpg" alt=""></a>
+				<a href=""><div class="ban_text">
+					<h1>十年模型制作经验</h1>
+					<h3 style="font-size:50px;padding:0px;margin:0px">MODEL MAKING</h3>
+					<h4>我们专注于精品模型理念，以行业持续领跑者为己任</h4>
+					<span>www.xiumeimodel.com</span>
+				</div></a>
+			</li>
+			<li class="imgBox swiper-slide col-xs-12">
+				<a href=""><img src="images/lxh/banner3.jpg" alt=""></a>
+				<a href=""><div class="ban_text">
+					<h1 style="font-size:45px;">工业设计 创意生活 </h1>
+					<h3 style="font-size:69px;padding:0px;margin:0px;border-bottom: 1px solid #e4392a">INDUSTRIAL DESIGN</h3>
+					<h4 style="font-size: 16px;margin-top: 20px;line-height: 30px;">我们专注于精品模型理念，以行业持续领跑者为己任</h4>
+				</div></a>
+			</li>
+			<li class="imgBox swiper-slide col-xs-12">
+				<a href=""><img src="images/lxh/banner4.jpg" alt=""></a>
+				<a href=""><div class="ban_text">
+					<h1 style="font-size:45px;">三维共创富有乐趣的生活</h1>
+					<h3 style="font-size:69px;padding:0px;margin:0px;border-bottom: 1px solid #e4392a">INTERESTING LIFE</h3>
+					<h4 style="font-size: 16px;margin-top: 20px;line-height: 30px;">以技术为核心，专业为水准，精细为原则，以诚信为宗旨</h4>
+				</div></a>
+			</li>
+		</ul>
+		<div class="swiper-button-prev"></div>
+    	<div class="swiper-button-next"></div>
+	</div>
 	<!--banner结束-->
+
+	<!--我们的服务-->
+	<div class="container">
+		<div class="conten row">
+			<div class="title col-xs-12">
+				<h3>我们的服务</h3>
+				<h5>OUR&nbsp;<span>SERVICE</span></h5>
+			</div>
+		</div>
+		<ul class="cont row">
+			<li class="" id="list1">
+				<div class="pad">
+					<a href="">
+						<div class="icon"><img src="images/lxh/m1.png" alt="" class="imgone"><img src="images/lxh/m2.png" alt="" class="imgtwo"></div>
+						<h3>3D打印服务</h3>
+						<span></span>
+						<p>我们聚合了3D打印服务与互联网+领域的专家，结合3D打印未来需求大势，创新3D打印市场新模式。作为业界3D在线打印专家，为企业提供整体3D打印解决方案及交流平台。</p>
+					</a>
+				</div>
+			</li>
+			<li class="" id="list2">
+				<div class="pad">
+					<a href="">
+						<div class="icon"><img src="images/lxh/m1.png" alt="" class="imgone"><img src="images/lxh/m4.png" alt="" class="imgtwo"></div>
+						<h3>工业设计</h3>
+						<span></span>
+						<p>我们娴熟于逆向工程、产品设计、结构设计、外观设计、模具设计、3D模型转2D图纸，2D图纸转3维模型，使产品设计不仅灵活多样，而且可以最大限度的满足客户需求。</p>
+					</a>
+				</div>
+			</li>
+			<li class="" id="list3">
+				<div class="pad">
+					<a href="">
+						<div class="icon"><img src="images/lxh/m1.png" alt="" class="imgone"><img src="images/lxh/m6.png" alt="" class="imgtwo"></div>
+						<h3>模型制作</h3>
+						<span></span>
+						<p>我们娴熟于逆向工程、产品设计、结构设计、外观设计、模具设计、3D模型转2D图纸，2D图纸转3维模型，使产品设计不仅灵活多样，而且可以最大限度的满足客户需求。</p>
+					</a>
+				</div>
+			</li>
+			<li class="" id="list4">
+				<div class="pad">
+					<a href="">
+						<div class="icon"><img src="images/lxh/m1.png" alt="" class="imgone"><img src="images/lxh/m8.png" alt="" class="imgtwo"></div>
+						<h3>多媒体服务</h3>
+						<span></span>
+						<p>我们致力于多媒体领域的展示设计、软件开发及多媒体产品的研发推广。拥有专业的多媒体策划、设计、技术人才为主体的管理与实施团队，为各类客户提供专业多媒体技术服务。</p>
+					</a>
+				</div>
+			</li>
+			<li class="" id="list5">
+				<div class="pad">
+					<a href="">
+						<div class="icon"><img src="images/lxh/m1.png" alt="" class="imgone"><img src="images/lxh/m10.png" alt="" class="imgtwo"></div>
+						<h3>应用研发</h3>
+						<span></span>
+						<p>我们积极开展教育应用、产业服务等方面的应用研发。全面推进“3D打印+互联网”战略，形成线上线下生态系统，通过互联网与3D打印相结合的形式，致力于解决用户个性化需求。</p>
+					</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!--我们的服务-->
+	
+	<!--成功案例-->
+	<div class="container1">
+		<div class="content">
+			<div class="row">
+				<h3>成功案例</h3>
+				<h5><span>SUCCESS</span>&nbsp;CASE</h5>
+			</div>
+			<ul class="row">
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1G01414515VY.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+								<h3>AAU3D打印萤火虫灯</h3>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1G014145104560.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>	
+							<h3>AAU3D打印骑士奖杯</h3>
+						</div>
+					</a>
+				</li>
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1G014145000240.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>	
+							<h3>AAU3D打印海花岛</h3>
+						</div>
+					</a>
+				</li>
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1G014144S1536.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>	
+							<h3>AAU3D打印丝芙兰化妆品展示</h3>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="row">
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1G014144G5106.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>
+							<h3>AAU3D打印801柴油机</h3>
+						</div>
+					</a>
+				</li>
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1G014144545217.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>	
+							<h3>AAU3D打印医疗康复支架</h3>
+						</div>
+					</a>
+				</li>
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1F916111945Z2.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>	
+							<h3>AAU3D打印山西足协杯赛奖杯</h3>
+						</div>
+					</a>
+				</li>
+				<li class="col-xs-3">
+					<a href="">
+						<img src="images/lxh/1-1F916110349A1.jpg" alt="">
+						<div class="hover">
+							<div class="text">
+								<img src="images/lxh/logo_small.png" alt="">
+							</div>
+							<h3>AAU3D打印奖杯：yangpu super </h3>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="more">
+				<a href=""></a>
+			</div>
+		</div>
+	</div>
+	<!--成功案例-->
+
+	<!--最新动态-->
+	<div class="container2">
+		<div class="content row">
+			<div class="title col-xs-12">
+				<h3>最新动态</h3>
+				<h5>OUR&nbsp;<span>SERVICE</span></h5>
+			</div>
+		</div>
+		<div class="content">
+			<ul class="row">
+				<li class="col-sm-3">
+					<div class="text">
+						<span><em>11/07</em>2017</span>
+						<h3><a href="">3D打印在新能源与智能网联</a></h3>
+						<p>身为3D打印、工业设计的领导品牌的AAU3D，我们一直秉承“求精、务实、创新、共赢”的理念，...</p>
+						<a href="" class="more"></a>
+					</div>
+					<div class="hover">
+						<div class="img"></div>
+						<div class="pad">
+							<h3><a href="">3D打印在新能源与智能网联</a></h3>
+							<p>身为3D打印、工业设计的领导品牌的AAU3D，我们一直秉承“求精、务实、创新、共赢”的理念，...</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-3">
+					<div class="text">
+						<span><em>11/07</em>2017</span>
+						<h3><a href="">2017第十九届中国国际工业博</a></h3>
+						<p>在学习贯彻党的十九大精神日子里，今天，我们迎来了第十九届中国国际工业博览会（简称“......</p>
+						<a href="" class="more"></a>
+					</div>
+					<div class="hover">
+						<div class="img"></div>
+						<div class="pad">
+							<h3><a href="">2017第十九届中国国际工业博</a></h3>
+							<p>在学习贯彻党的十九大精神日子里，今天，我们迎来了第十九届中国国际工业博览会（简称“......</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-3">
+					<div class="text">
+						<span><em>11/07</em>2017</span>
+						<h3><a href="">AAU与你相约2017工博会1H-A0</a></h3>
+						<p>再有四天,2017第十九届中国国际工业博览会就要开幕了，这次展会地址，依然是在上海国家会展......</p>
+						<a href="" class="more"></a>
+					</div>
+					<div class="hover">
+						<div class="img"></div>
+						<div class="pad">
+							<h3><a href="">AAU与你相约2017工博会1H-A0</a></h3>
+							<p>再有四天,2017第十九届中国国际工业博览会就要开幕了，这次展会地址，依然是在上海国家会展......</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-sm-3">
+					<div class="text">
+						<span><em>11/07</em>2017</span>
+						<h3><a href="">改变海洋垃圾，拯救海洋生</a></h3>
+						<p>在英国康沃尔郡，该地区就有一个庞大的渔产业。几个具有强烈环保意识的英国人在这里创立......</p>
+						<a href="" class="more"></a>
+					</div>
+					<div class="hover">
+						<div class="img"></div>
+						<div class="pad">
+							<h3><a href="">改变海洋垃圾，拯救海洋生</a></h3>
+							<p>在英国康沃尔郡，该地区就有一个庞大的渔产业。几个具有强烈环保意识的英国人在这里创立......</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="load">
+				<a href="">LOAD MORE</a>
+			</div>
+		</div>
+	</div>
+	<!--最新动态-->
+
+	<!--联系我们-->
+	<div class="zd-lxwm-con">
+		<div class="lxwm-top">
+			<h3>联系我们</h3>
+			<h5><span>contact</span>US</h5>
+		</div>
+		<div class="lxwm-bottom">
+			<div class="lxwm-left">
+				<ul>
+					<li>天津市滨海新区临港老管委会(海河道北)</li>
+					<li>
+					<a href="">15921847323 王伟（总经理） (咨询)</a>
+					<a href="">15921847323 (咨询)</a>
+					</li>
+					<li><a href="">wangwei@aau3d.com</a></li>
+				</ul>
+			</div>
+			<div class="lxwm-right">
+				<img src="images/lxh/conus.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!--联系我们-->
+
+	<!--地图-->
+	<div class="container3">
+		<div class="kai">
+			<a href="javascript:"><em></em>点击展开地图</a>
+		</div>
+		<div class="zhan">
+			<div class="top"></div>
+			<a href="javascript:"></a>
+			<div style="width:100%;font-size:0px" id="map"></div>
+			<div class="bottom"></div>
+		</div>
+	</div>
+	<!--地图-->
+
+	<div class="side1">
+			<ul>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="images/qq.png" alt="">
+							在线咨询
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="images/phone.png" alt="">
+							15921847323
+						</div>
+					</a>
+				</li>
+			</ul>
+	</div>
+	<div class="side2">
+		<ul>
+			<li>
+				<a href="javascript:">
+					<img src="images/ewm.png" alt="">
+				</a>
+				<div class="weixin">
+					<em></em>
+					<img src="images/ewm.jpg" alt="">
+				</div>
+			</li>
+			<li>
+				<a href="javascript:">
+					<img src="images/up.png" alt="">
+				</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<!--底部-->
+	<div class="zd-footer">
+		<div class="footer">
+				<ul>
+					<li>关于我们</li>
+					<li><a href="">我们是谁</a></li>
+					<li><a href="">品牌客户</a></li>
+					<li><a href="">专业团队</a></li>
+				</ul>
+				<ul>
+					<li>服务领域</li>
+					<li><a href="">3D打印服务</a></li>
+					<li><a href="">工业设计</a></li>
+					<li><a href="">模型制作</a></li>
+					<li><a href="">服务流程</a></li>
+					<li><a href="">服务行业</a></li>
+				</ul>
+				<ul>
+					<li>成功案例</li>
+					<li><a href="">3D打印服务</a></li>
+					<li><a href="">工业设计</a></li>
+					<li><a href="">模型制作</a></li>
+					<li><a href="">多媒体服务</a></li>
+					<li><a href="">应用研发</a></li>
+				</ul>
+				<ul>
+					<li>新闻资讯</li>
+					<li><a href="">企业动态</a></li>
+					<li><a href="">行业资讯</a></li>
+					<li><a href="">视频新闻</a></li>
+				</ul>
+				<ul>
+					<li>联系我们</li>
+					<li><a href=""><img src="images/zd.png" alt=""><img src="images/zd/wb.png" alt=""></a></li>
+					<b>15921847323</b>
+					<h5>服务热线</h5>
+				</ul>
+		</div>
+		<div class="bq">
+			<p>
+				<span>Copyright  2017-2019 版权所有：天津津合精密科技有限公司 Tianjin Jinhe Precision Technology  Co., Ltd.</span>
+				<a href="">沪ICP备12047210号-1</a>
+				<img src="images/zd/dt.gif" alt="">
+			</p>
+			
+		</div>
+	</div>
+	<!--底部-->
 </body>
 </html>

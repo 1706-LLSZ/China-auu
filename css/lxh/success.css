@@ -1,0 +1,304 @@
+.ban-in{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-top: 90px;
+}
+.ban-in .ban-bg{
+	width: 100%;
+	height: 54px;
+	background: url('../../images/lxh/ban_bg.png') no-repeat center top /cover;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	z-index: 10;
+
+}
+.lh-container{
+	width: 1140px;
+	margin: auto;
+}
+.tit-i{
+	text-align: center;
+    padding: 50px 0 8px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.tit-i h3 {
+    font-size: 30px;
+    color: #002;
+    margin-bottom: 10px;
+}
+.tit-i h5 {
+    font-size: 20px;
+    color: #cacace;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+.tit-i h5 span {
+    color: #e4392a;
+}
+.sub-nav {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.sub-nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+    font-size: 16px;
+}
+.sub-nav ul li a {
+    font-size: 16px;
+    padding-left: 14px;
+    display: inline-block;
+    color: #999;
+}
+.lh-case{
+	width: 100%;
+	overflow: hidden;
+}
+.lh-case li{
+	float: left;
+	width: 30.7%;
+	height: 168px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.lh-case li .pic{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.lh-case li .pic img{
+	width: 100%;
+	height: 100%;
+}
+.lh-case li .pic .txt{
+	position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/lxh/alpha_blue_60.png') repeat;
+    text-align: center;
+    color: #fff;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: all .3s;
+    opacity: 0;
+    z-index: 10;
+}
+.lh-case li:hover .txt{
+	opacity: 1;
+}
+.lh-case li .pic .txt a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: white;
+}
+.lh-case li .pic .txt a .pad{
+	display: inline-block;
+    vertical-align: middle;
+}
+.lh-case li .pic .txt a .pad h5{
+	font-size: 16px;
+}
+.lh-case li .pic .txt a .pad em {
+    width: 45px;
+    height: 0px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    margin: 20px 0 5px 0;
+}
+.lh-case li .txt h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.lh-case li .txt b {
+    width: 0;
+    height: 100%;
+}
+.lh-case li .txt .more {
+    width: 122px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    background-color: #e4392a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.pages{
+	clear: both;
+    height: 30px;
+    margin: 20px;
+    overflow: hidden;
+    margin-left: 0px;
+    text-align: center;
+}
+.pages ul li{
+	display: inline-block;
+    border: 1px solid #ccc;
+    padding: 2px 9px;
+    margin: 0 3px;
+    line-height: 20px;
+    background: #fff;
+    color: #999;
+}
+.pages ul li.thisclass{
+	border: 1px solid #E4392A;
+    background: #E4392A;
+    color: #fff;
+}
+.pages ul li a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+}
+.side1{
+    position: fixed;
+    width: 50px;
+    height: 275px;
+    right: 0;
+    top: 250px;
+    z-index: 100;
+}
+.side1 ul li{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    margin-bottom: 2px;
+}
+.side1 ul li .sidebox{
+    position: absolute;
+    width: 50px;
+    height: 50px;   
+    border-radius: 5px 0 0 5px;
+    background: rgb(0, 0, 34);
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+    color: #fff;
+    font: 16px/50px "微软雅黑";
+    overflow: hidden;
+}
+.side1 ul li img{
+    float: right;
+    transform-origin:right top;
+}
+.side1 ul li:hover img{
+    animation: scale .2s; 
+}
+@keyframes scale{
+    50%{
+        transform:scale(.5,.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.side2{
+    position: fixed;
+    width: 40px;
+    right: 10px;
+    z-index: 100;
+    top: 500px;
+    height: 80px;
+}
+.side2 ul li{
+    width: 40px;
+    height: 40px;
+}
+.side2 ul li a{
+    display: block;
+    background-color: #e4392a;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.side2 ul li a img{
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+.side2 ul li .weixin{
+    display: none;
+    height: 140px;
+    position: absolute;
+    left: -154px;
+    bottom: 0;
+}
+@media screen and (max-width: 900px){
+    .side1{
+        display: none;
+    }
+    .slde2{
+        display: none;
+    }
+    .side2 ul li a{
+        display: none;
+    }
+}
+@media screen and (max-width:1140px) and (min-width: 902px){
+	.lh-container{
+		width: 100%;
+	}
+	.lh-case li{
+		width: 30.7%;
+	}
+}
+@media screen and (max-width:902px) and (min-width: 638px){
+	.lh-container{
+		width: 100%;
+	}
+	.lh-case li{
+		width: 50%;
+        height: auto;
+	}
+}
+@media screen and (max-width:638px){
+	.lh-container{
+		width: 100%;
+	}
+	.lh-case li{
+		width: 100%;
+        height: auto;
+	}
+    .sub-nav ul{
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .sub-nav ul li{
+        width: 36%;
+        text-align: left;
+        float: left;
+        box-sizing: border-box;
+    }
+	.pages ul li {
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    padding: 2px 2px;
+	    margin: 0 3px;
+	    line-height: 20px;
+	    background: #fff;
+	    color: #999;
+	}
+}
+@media screen and (max-width:415px){
+    .ban-in{
+        display: none;
+    }
+}
