@@ -75,11 +75,7 @@
 	position:fixed;
 	top: 0;
 	left: 0;
-<<<<<<< HEAD
-	z-index: 60;
-=======
 	z-index: 99999;
->>>>>>> 412a7fac37abeee06ba48ab7a51cba6cc2ca482e
 }
 .zdxy-header .logobox{
 	width:135px;
@@ -186,8 +182,6 @@
 	    padding: 8px 0;
 
 	}
-<<<<<<< HEAD
-=======
 	.zd-lxwm-con .lxwm-bottom .lxwm-right{
 		width: 100%;
 	 	
@@ -197,7 +191,6 @@
 		width:100%;
 		
 }
->>>>>>> 412a7fac37abeee06ba48ab7a51cba6cc2ca482e
 }
 
 

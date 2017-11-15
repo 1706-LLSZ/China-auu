@@ -22,9 +22,6 @@ $(function(){
 	
 	})
 
-<<<<<<< HEAD
-
-=======
 	$(".zd-map .btn").click(function(){
 	$(".zd-map .mapapi").css("height","244px");
 	})
@@ -38,6 +35,5 @@ $(function(){
 		$(".ewm").css("height","0")
 
 	})
->>>>>>> 412a7fac37abeee06ba48ab7a51cba6cc2ca482e
 
 })

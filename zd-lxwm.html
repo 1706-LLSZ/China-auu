@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/zd/lxwm.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/zd/header.css">
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/zd/zd-header.js"></script>
+	<script src="js/zd/lxwm.js"></script>
+</head>
+<body>
+	<div class="zd-lxwm-tu">
+		<div class="zd-lxwm-imgbox"></div>
+	</div>
+	<!-- 内容 -->
+	<div class="zd-lxwm-con">
+		<div class="lxwm-top">
+			<h3>联系我们</h3>
+			<h5><span>contact</span>ZHIZHUXIU</h5>
+		</div>
+		<div class="lxwm-bottom">
+			<div class="lxwm-left">
+				<ul>
+					<li>天津市滨海新区临港老管委会(海河道北)</li>
+					<li>
+					<a href="">15921847323 王伟（总经理） (咨询)</a>
+					<a href="">15921847323 (咨询)</a>
+					</li>
+					<li><a href="">wangwei@aau3d.com</a></li>
+				</ul>
+			</div>
+			<div class="lxwm-right">
+				<img src="images/zd/zd-2.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 地图 -->
+	<!-- 地图开始 -->
+		<div class="zd-map">
+		    <div class="maps" style="background: url(images/zd/map.png) center top;">
+		        <div href="#" class="btn">
+		            <span class="arr" style="background: url(images/zd/zd-3.jpg) center top no-repeat ;"></span>
+		            点击展开地图
+		        </div>
+		    </div>
+		    <div class="mapapi">
+		        <div href="#" class="btn-down" style="background: url(images/zd/map_down.png) no-repeat;"></div>
+		        <div class="mapbg1" style="background: url(images/zd/ban_bg_top.png) no-repeat center 0;"></div>
+		        <div class="mapbg2" style="background: url(images/zd/map_bg2.png) no-repeat center 0;;"></div>
+		        <div style="width:100%;height:100%;border:#ccc solid 1px;font-size:12px;box-sizing: border-box;" id="map">	        </div>
+		         <!--引用百度地图API-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=88gjoh5syteLGfVp8hGglsFuY4lQuvko"></script>
+
+  <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(108.875489,34.235814),15);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      map.addControl(scaleControl);
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(navControl);
+      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+      map.addControl(overviewControl);
+    }
+    var map;
+      initMap();
+  </script>
+		    </div>
+		</div>
+<!-- 地图结束 -->
+<!-- 侧边 -->
+<div class="side1">
+			<ul>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="images/zd/qq.png" alt="">
+							在线咨询
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="images/zd/tel.png" alt="">
+							15921847323
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="side2">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/zd/r_icon1.png" alt="">
+					</a>
+					<div class="weixin">
+						<em></em>
+						<img src="images/zd/ewm.jpg" alt="">
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/zd/r_icon2.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+
+</body>
+</html>

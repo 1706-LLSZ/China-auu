@@ -14,11 +14,7 @@
 .zd-footer .footer ul{
 	width: 20%;
 	float: left;
-<<<<<<< HEAD
-
-=======
 	position: relative;
->>>>>>> 412a7fac37abeee06ba48ab7a51cba6cc2ca482e
 }
 .zd-footer .footer ul li{
 	font-size:12px;
@@ -50,8 +46,6 @@
 	color: rgb(168,168,175);
 	font-size:16px;
 }
-<<<<<<< HEAD
-=======
 .zd-footer .footer ul .ewm{
 	position: absolute;
 	left: -150px;
@@ -61,7 +55,6 @@
 	transition:all .5s;
 	height: 0;
 }
->>>>>>> 412a7fac37abeee06ba48ab7a51cba6cc2ca482e
 .zd-footer .bq{
 	background:rgb(0,0,34);
 	width: 100%;

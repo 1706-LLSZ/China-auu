@@ -1,0 +1,480 @@
+.lb-page{
+	width: 100%;
+}
+/*顶部图片*/
+.lb-top{
+	width: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	height: 300px;
+}
+.lb-top .quxian{
+	position: absolute;
+	background: url(../../images/lb/quxian.png) center top no-repeat;
+	height: 54px;
+	width: 100%;
+	left: 0;
+	bottom: -30px;
+	z-index: 30;
+}
+/*3D打印服务*/
+.lb-print{
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+}
+.lb-print .pr-head{
+	text-align: center;
+	padding-top: 50px;
+	line-height: 36px;
+	margin-bottom: 94px;
+}
+.lb-print .pr-head h3{
+	font-size: 30px;
+	color: #002;
+	margin-bottom: 10px;
+}
+.lb-print .pr-head h5{
+	font-size: 20px;
+	color: #cacace;
+	text-transform: uppercase;
+	font-family: Arial;
+	padding-bottom: 8px;
+}
+.lb-print .pr-head h5 span{
+	color: #e4392a;
+}
+.lb-print .pr-head p{
+	font-size: 14px;
+	line-height: 34px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.lb-print .pr-show{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.lb-print .pr-show li{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+.lb-print .pr-show li a{
+	color: #999;
+}
+.lb-print .pr-show li a .block{
+	width: 100%;
+	height: 220px;
+}
+.lb-print .pr-show li a .block img{
+	height: 100%;
+}
+.lb-print .pr-show li a h3{
+	font-size: 24px;
+	line-height: 34px;
+	color: #333;
+}
+.lb-print .pr-show li a .pr-word{
+	width: 100%;
+	font-size: 14px;
+}
+.lb-print .pr-show li a:hover{
+	color: #e4392a;
+}
+/*多媒体服务*/
+.fix{
+	background: url(../../images/lb/quxian-x.png) center top no-repeat;	
+	padding-top: 25px;
+	background-size: 100% 100%;
+	padding-bottom: 130px;
+}
+.lb-media{
+	padding-bottom: 177px;
+}
+.wrap{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.t-head{
+	text-align: center;
+	padding-top: 50px;
+	line-height: 36px; 
+}
+.t-head h3{
+	font-size: 30px;
+    color: #002;
+    margin-bottom: 10px;
+}
+.t-head h5{
+	font-size: 20px;
+    color: #cacace;
+    text-transform: uppercase;
+    font-family: Arial;
+    padding-bottom: 8px;
+}
+.t-head h5 span{
+	color: #e4392a;
+}
+.t-head p{
+	font-size: 14px;
+	line-height: 34px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.dmt-img img{
+	width: 100%;
+}
+/*模型制作*/
+.lb-model{
+	background: none;
+}
+.fix .show{
+	overflow: hidden;
+}
+.lb-model li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding-left: 3%;
+	margin-bottom: 18px;
+}
+.show li .block{
+	width: 150px;
+	margin: 0 auto;
+	height: 151px;
+}
+.show li h3{
+	display: inline-block;
+    border: 1px dashed #358acb;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 17px;
+    color: #666;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/*工业设计*/
+.lb-facDesign li{
+	float: left;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 18px;
+}
+/*应用研发*/
+.lb-appStudy{
+	background: none;
+}
+.lb-appStudy .app{
+	width: 70%;
+	margin: 0 auto;
+}
+.lb-appStudy li{
+	float: left;
+	width: 50%;
+	text-align: center;
+    padding-left: 3%;
+    margin-bottom: 18px;
+}
+/*服务流程*/
+.lb-service{
+	background: url(../../images/lb/B-bg.png) center top no-repeat;
+    padding-top: 25px;
+    padding-bottom: 63px;
+}
+.lb-service h3{
+	color: #fff;
+}
+.lb-service h5{
+	padding-bottom: 0;
+}
+.wrap .t-head em{
+	width: 45px;
+    border-bottom: 1px solid #dddde1;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.wrap .process{
+	width: 1170px;
+	overflow: hidden;
+}
+.wrap .process .con{
+	width: 1170px;
+	position: relative;
+}
+.wrap .process .pad{
+	padding-top: 26%;
+}
+.wrap .process .pad img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.wrap .process span{
+	display: inline-block;
+    color: #90a1b3;
+    font-size: 16px;
+    position: absolute;
+}
+.wrap .process .s1{
+	left: 0%;
+	top: 0%;
+}
+.wrap .process .s2{
+	left: 4.6%;
+    top: 0%;
+}
+.wrap .process .s3{
+    left: 1.6%;
+    top: 22%;
+}
+.wrap .process .s4{
+    left: 0%;
+    top: 65%;
+}
+.wrap .process .s5{
+    left: 9.5%;
+    top: 42%;
+}
+.wrap .process .s6{
+    left: 19%;
+    top: 65%;
+}
+.wrap .process .s7{
+    left: 27%;
+    top: 50%;
+}
+.wrap .process .s8{
+    left: 38%;
+    top: 89%;
+}
+.wrap .process .s9{
+    left: 48%;
+    top: 15%;
+}
+.wrap .process .s10{
+    left: 56%;
+    top: 89%;
+}
+.wrap .process .s11{
+    left: 76.5%;
+    top: 64%;
+}
+.wrap .process .s12{
+    left: 94%;
+    top: 4%;
+}
+.process em{
+	position: absolute;
+    background: url(../../images/lb/r1.png) no-repeat;
+    display: inline-block;
+    z-index: 60;
+}
+.process .q1{
+	width: 60px;
+    height: 61px;
+    left: 0;
+    top: 40%;
+}
+.process .q2{
+	width: 57px;
+    height: 57px;
+    top: 42%;
+    left: 19%;
+    background-image: url(../../images/lb/r2.png);
+}
+.process .q3{
+	width: 62px;
+    height: 56px;
+    top: 68%;
+    left: 38%;
+    background-image: url(../../images/lb/r3.png);
+}
+.process .q4{
+	width: 86px;
+    height: 86px;
+    top: 29%;
+    left: 47%;
+    background-image: url(../../images/lb/r4.png);
+}
+.process .q5{
+	width: 63px;
+    height: 59px;
+    top: 68%;
+    left: 57%;
+    background-image: url(../../images/lb/r5.png);
+}
+.process .q6{
+	width: 51px;
+    height: 51px;
+    top: 40%;
+    left: 77%;
+    background-image: url(../../images/lb/r6.png);
+}
+.process .q7{
+	width: 68px;
+    height: 63px;
+    top: 18%;
+    left: 94%;
+    background-image: url(../../images/lb/r7.png);
+}
+/*服务行业*/
+.lb-solution h5{
+	padding-bottom: 0;
+}
+.lb-solution .t-head{
+	padding-bottom: 8px;
+}
+.lb-solution .t-head em{
+	border-color: #7f7f90;
+}
+.ul-solution{
+	overflow: hidden;
+}
+.ul-solution li{
+	float: left;
+    width: 16.66666%;
+    text-align: center;
+    margin-bottom: 65px;
+    position: relative;
+}
+.ul-solution li a{
+	display: block;
+    height: 140px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.ul-solution li a .box{
+	top: 0;
+	background-position: 0 0;
+	background: url(../../images/lb/icon.png) no-repeat;
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    transition: .3s;
+}
+.ul-solution .li2 a .box{
+	background-position: -215px 0;
+}
+.ul-solution .li3 a .box{
+	background-position: -429px 0;
+}
+.ul-solution .li4 a .box{
+	background-position: -643px 0;
+}
+.ul-solution .li5 a .box{
+	background-position: -857px 0;
+}
+.ul-solution .li6 a .box{
+	background-position: -1070px 0;
+}
+.ul-solution .li7 a .box{
+	background-position: -0px bottom;
+}
+.ul-solution .li8 a .box{
+	background-position: -215px bottom;
+}
+.ul-solution .li9 a .box{
+	background-position: -429px bottom;
+}
+.ul-solution .li10 a .box{
+	background-position: -643px bottom;
+}
+.ul-solution .li11 a .box{
+	background-position: -857px bottom;
+}
+.ul-solution .li12 a .box{
+	background-position: -1070px bottom;
+}
+.ul-solution li a em{
+	font-style: normal;
+	color: #999;
+}
+.ul-solution li a:hover .box{
+	background-image: url(../../images/lb/icon_h.png);
+	top: 5px;
+}
+
+
+/*侧边栏*/
+
+
+.side1{
+	position: fixed;
+    width: 50px;
+    height: 275px;
+    right: 0;
+    top: 250px;
+    z-index: 100;
+}
+.side1 ul li{
+	width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    margin-bottom: 2px;
+}
+.side1 ul li .sidebox{
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+	border-radius: 5px 0 0 5px;
+	background: rgb(0, 0, 34);
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+    color: #fff;
+    font: 16px/50px "微软雅黑";
+    overflow: hidden;
+}
+.side1 ul li img{
+	float: right;
+	transform-origin:right top;
+}
+.side1 ul li:hover img{
+	animation: scale .2s; 
+}
+@keyframes scale{
+	50%{
+		transform:scale(.5,.5);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+.side2{
+	position: fixed;
+    width: 40px;
+    right: 10px;
+    z-index: 100;
+    top: 500px;
+    height: 80px;
+}
+.side2 ul li{
+	width: 40px;
+    height: 40px;
+}
+.side2 ul li a{
+	display: block;
+    background-color: #e4392a;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.side2 ul li a img{
+	vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+.side2 ul li .weixin{
+	display: none;
+    height: 140px;
+    position: absolute;
+    left: -154px;
+    bottom: 0;
+}
