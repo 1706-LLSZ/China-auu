@@ -6,6 +6,7 @@
     left: 0;
     z-index:100;
     transition: all .3s;
+    background: #fff;
 }
 .zd-header .zd-top{
 	width: 1140px;

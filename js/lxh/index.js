@@ -103,7 +103,7 @@ $(function(){
 		},function(){
 			$(this).find("a").css({"background":"#e4392a"})
 		})
-		$(".side2 li #top").click(function(){
+		$(".side2 li").eq(1).click(function(){
 			$("html,body").animate({"scrollTop":"0"},600)
 		})
 		$('.side2 li').hover(function(){
